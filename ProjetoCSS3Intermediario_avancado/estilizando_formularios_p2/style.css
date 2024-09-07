@@ -1,0 +1,65 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #643d87 url(Images/fundo.jpg) no-repeat top center;
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 10px;
+    /*Bordas arredondadas*/
+    -moz-border-radius: 10px;
+    /*Bordas arredondadas*/
+    border-radius: 10px;
+    /*Bordas arredondadas*/
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    /*margin negativa para jogar o objeto para cima, fora do container*/
+    margin-bottom: 30px;
+}
+
+input {
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: none;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email {
+    background-image: url(Images/icone-usuario.png);
+}
+
+input.senha {
+    background-image: url(Images/icone-cadeado.png);
+}
+
+input.submit {
+    color: #fff;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    cursor: pointer;
+    padding: 5px 20px;
+    height: 45px;
+    width: 80%;
+
+    /*foi configurada uma cor de background anteriormente para navegadores mais antigos que não possuem suporte para o
+    linear-gradient, desta forma fazendo com que ninguém nunca fique sem um background-color no botão.*/
+    /*webkit, moz, o - isso é feito e deve ser para que funcione normalmente em outros navegadores.*/
+    background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+}
