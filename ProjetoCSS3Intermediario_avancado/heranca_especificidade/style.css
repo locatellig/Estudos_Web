@@ -1,0 +1,32 @@
+/*herança e especificidade*/
+/*
+body{
+    color: red;
+    border: 1px solid blue;
+}
+*/
+
+/*!important, para definir que um atributo é mais importante do que qualquer outro
+#pagina p{
+    color: blue !important;
+}
+
+#pagina p{
+    color: red;
+}
+*/
+
+/*Se um seletor for mais específico que outro a regra mais específica será aplciada
+(terá prioridade sobre regras mais gerais)
+*{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+h2.verde{
+    color: green;
+}
+*/

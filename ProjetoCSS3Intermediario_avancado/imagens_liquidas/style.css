@@ -1,0 +1,105 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#home #navegacao #atual{
+    color: white;
+    background: black;    
+}
+
+#container{
+    border: 1px solid red;
+    width: 100%;/*960px; -- usado para colunas falsas em layouts fixos*/
+    margin: 0 auto;
+    background: #fff /*url(Images/coluna.png) repeat-y left top --Colunas falsas, para efeitos*/ ;
+    min-width: 720px;
+    /*max-width: 1200px;*/
+    /*min-height: ;*/
+    /*max-height: ;*/
+}
+
+#marca {
+    width: 100%; /*Teoricamente esse não precisa pois a div ja utiliza 100% do tamanho disponível*/
+    height: 200px;
+    background: #225992 url(Images/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+}
+
+#conteudo {
+    width: 72.2%;
+    float: right;
+}
+
+#conteudo_principal {
+    width: 61.54%;
+    float: left;
+}
+
+
+img.img_noticia{
+    width: 94%;
+    padding: 2%;
+    max-width: 600px; /*apenas para garantir um tamanho máximo em que a qualidade da imagem não ficará prejudicada*/
+}
+
+/*#imagem{
+    border: 1px solid red;
+    width: 90%;
+    overflow: hidden; apaga tudo o que passar do tamanho definido
+}*/
+
+#conteudo_secundario {
+    width: 34.62%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo_secundario h1,
+#conteudo_secundario h2,
+#conteudo_secundario h3,
+#conteudo_secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao {
+    width: 25%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#navegacao ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;    
+}
+
+#navegacao li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navegacao li a:link, a:visited {
+    color: black;
+    background: white;
+    display: block;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+}
+
+#navegacao li a:hover{
+    color: white;
+    background: black;
+}
+
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}

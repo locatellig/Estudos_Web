@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Estilizando formulários</title>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h2>Estilizando formulários</h2>
+    <div class="formulario">
+        <form>
+
+            <fieldset> <!--Utilizado para agrupar dados semelhantes-->
+                <legend>Detalhes de Contato</legend>
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <!--Label é utilizado para definir títulos e neste caso ele está associado ao input id="nome" através do for="nome"-->
+                    <input type="text" name="nome" id="nome">
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+
+                <div>
+                    <label for="url">URL:</label>
+                    <input type="text" name="url" id="url">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comentários</legend>
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Lembrar de mim</legend>
+                <div>
+                    <label>
+                        <input class="radio" type="radio" name="lembrar" id="sim" checked>Sim
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input class="radio" type="radio" name="lembrar" id="nao">Nao
+                    </label>
+                </div>
+            </fieldset>
+    </div>
+
+    </form>
+
+</body>
+
+</html>
