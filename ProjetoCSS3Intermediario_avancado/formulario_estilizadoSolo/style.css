@@ -1,0 +1,55 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #643d87  url(../estilizando_formularios_p2/Images/fundo.jpg) no-repeat top center;
+}
+
+#container{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img{
+    margin-top: -60px;
+    margin-bottom: 30px;
+    height: 120px;
+}
+
+input {
+    height: 40px;
+    width: 80%;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: none;
+}
+
+input.email {
+    background-image: url(../estilizando_formularios_p2/Images/icone-usuario.png);
+}
+
+input.senha {
+    background-image: url(../estilizando_formularios_p2/Images/icone-cadeado.png);
+}
+
+input.logar{
+    padding: 5px 10px;
+    color: white;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    cursor: pointer;
+    height: 45px;
+
+
+    background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+}
