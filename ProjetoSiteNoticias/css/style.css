@@ -28,6 +28,15 @@ body {
 }
 
 /*Configura barra de navegação principal*/
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover{
+    color: #e50040;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -83,6 +92,7 @@ body.fotos #navegacao a#fotos
     float: left;
     margin: 0 0 20px -750px;
 }
+
 #primario {
     width: 270px;
     float: left;
@@ -167,8 +177,67 @@ input.submit{
     cursor: pointer;
 }   
 
+/*formatando imagens*/
+img.imagem_principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+    margin-top: 5px;    
+}
+
+/*Formatando Cabeçalhos*/
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background-color: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background-color: #de003e;
+    color: #fff;
+}
+
+/*Formatando lista de notícias*/
+#lista_noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista_noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista_noticias li a {
+    text-decoration: none;  
+}
+
+#lista_noticias li a h3{  
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista_noticias li a p{
+    font-size: 0.7em;
+    color: black;  
+}
+
+#lista_noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+
 /*Rodape*/
 #container_rodape {
+    
     background: #294c71;
     padding: 20px;
 }
@@ -177,5 +246,5 @@ input.submit{
     width: 750px;
     margin: 0 auto;
     color: #fff;
+    text-align: center;
 }
-
