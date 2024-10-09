@@ -95,6 +95,14 @@ ul.formata_link li a:hover{
     color: black;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 3%;
+}
+
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp-solid, .fa-solid, .fab, .far, .fas{
+    opacity: 0.5;
+}
+
 /* Estrutura conteúdos
 -------------------------*/
 #servicos {
